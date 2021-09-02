@@ -1,42 +1,70 @@
-# 📋 Sobre a atividade
+# Getting Started with Create React App
 
-Essa será uma aplicação onde o seu principal objetivo é entender e praticar o conceito de renderização de childrens através de props, além de praticar o desenvolvimento de interfaces estilizadas 😋
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# ℹ️ Informações úteis
+## Available Scripts
 
-## **Exemplo** de resultado esperado
+In the project directory, you can run:
 
-![](https://i.imgur.com/dAjGbba.png)
+### `yarn start`
 
-* * *
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## 🖐️🍝Mão na massa!
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-1.  Crie um projeto react usando o comando: `yarn create react-app ***seuprojeto***`
+### `yarn test`
 
-2.  Após isso, abra seu projeto no seu editor e rode o comando `yarn start` para iniciar o servidor com seu app.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-3.  Crie um componente chamado `CenteredCard.js`, dentro de uma pasta `components`, assim como vimos nas aulas anteriores.
+### `yarn build`
 
-4.  O componente `CenteredCard` recebe uma prop que será desestruturada chamada `**children`**
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-5.  O componente CenteredCard possui os seguintes elementos JSX nessa ordem: div → span →`children`
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-6.  Adicione uma classe a div pai do componente `CenteredCard` e crie um arquivo, onde vamos estilizar este componente. Você deverá **centralizar tudo o que estiver dentro da div**, ou seja, o span que engloba o children.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-7.  Agora importe o componente e lembre-se que ao instancia-lo você deverá passar algum elemento como children, por exemplo:
+### `yarn eject`
 
-        <CenteredCard> <h1> Exemplo </h1>  </CenteredCard>
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## 💪Agora é com você
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-*   Desenvolva e aplique algum conteúdo dentro do CenteredCard, ele pode ser um card contendo detalhes de algo ou alguém, etc
-*   Estilize seu Card, **seja original** 😉
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-# 💡Conhecimentos aplicados:
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-*   Fundamentos do React
-*   Passagem de valores para um componente
-*   Componentização e Reutilização
-*   Utilização dos valores vindo das props no componente
-*   Reforçando conceito de children e props
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
