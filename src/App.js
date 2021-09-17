@@ -15,7 +15,7 @@ function App() {
         {userName.map((item) => {
           return (
             <CenteredCard>
-              <h1>{item.name}</h1>
+              <h2>{item.name}</h2>
               <h3>{item.age}</h3>
               <h3>{item.country}</h3>
             </CenteredCard>
